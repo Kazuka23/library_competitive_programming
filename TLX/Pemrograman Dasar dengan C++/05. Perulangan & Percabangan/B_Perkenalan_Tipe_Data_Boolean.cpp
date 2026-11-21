@@ -8,10 +8,8 @@ int main() {
         bool kelipatan_2 = sisi % 2 == 0;
         bool kelipatan_3 = sisi % 3 == 0;
 
-        if (sisi % 2 == 0) {
+        if (kelipatan_2 == true && kelipatan_3 == false) {
             ada_yang_dijual = true;
-        } else {
-            ada_yang_dijual = !false;
         }
     }
 
