@@ -10,7 +10,7 @@ int main() {
 
         if (sisi % 2 == 0) {
             ada_yang_dijual = true;
-        } else if (sisi % 2 != 0) {
+        } else {
             ada_yang_dijual = !false;
         }
     }
